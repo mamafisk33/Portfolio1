@@ -1,0 +1,90 @@
+body {
+  font-family: "Open Sans", sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "EB Garamond", cursive; }
+
+h2 {
+  color: #3f435c; }
+
+header h2 {
+  color: #c5c4c9; }
+
+h6 {
+  color: #3f435c;
+  font-style: italic; }
+
+.site-footer {
+  padding: 20px 0;
+  background-image: linear-gradient(#c5c4c9, white); }
+
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, #dad5d5, #3f435c, #151047);
+  color: white; }
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
+
+.navbar {
+  background-color: #2e2853; }
+
+.carousel-caption {
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.carousel {
+  border: solid #dad5d5; }
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0; }
+
+#bookButton,
+#dropInButton {
+  color: black; }
+
+#bookModal .modal-header {
+  background-color: #271e81;
+  color: white; }
+
+#loginModal .modal-header {
+  background-color: #271e81;
+  color: white; }
+
+#bodyHome {
+  min-height: 100vh;
+  background-image: linear-gradient(transparent, white 75%), url("../img/iam_1.jfif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#bodyAbout {
+  min-height: 100vh;
+  background-image: linear-gradient(transparent, white 75%), url("../img/img_3728.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#bodyContact {
+  min-height: 100vh;
+  background-image: linear-gradient(transparent, white 75%), url("../img/ironmortar_november19-19102.jfif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#bodyClasses {
+  min-height: 100vh;
+  background-image: linear-gradient(transparent, white 75%), url("../img/im_0142.jfif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }

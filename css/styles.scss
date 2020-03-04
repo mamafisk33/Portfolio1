@@ -1,0 +1,133 @@
+$color-primary: #3f435c;
+//$color-secondary: rgb(245, 11, 11);
+$color-secondary: #dad5d5;
+$color-pale: #c5c4c9;
+//$color-mid: #420f0f;
+$color-mid: #2e2853;
+$color-dark: #151047;
+//$color-reserve: #e4380d;
+$color-reserve: #271e81;
+$color-transparent-black: rgba(0, 0, 0, 0.5);
+
+$body-font: "Open Sans", sans-serif;
+$header-font: "EB Garamond", cursive;
+
+body {
+  font-family: $body-font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $header-font;
+}
+
+h2 {
+  color: $color-primary;
+}
+
+header {
+  h2 {
+    color: $color-pale;
+  }
+}
+
+h6 {
+  color: $color-primary;
+  font-style: italic;
+}
+
+.site-footer {
+  padding: 20px 0;
+  background-image: linear-gradient($color-pale, white);
+}
+
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
+  color: white;
+}
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+.navbar {
+  background-color: $color-mid;
+}
+
+.carousel-caption {
+  padding: 5px;
+  background-color: $color-transparent-black;
+}
+
+.carousel {
+  border: solid $color-secondary;
+}
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#bookButton,
+#dropInButton {
+  color: black;
+}
+
+#bookModal {
+  .modal-header {
+    background-color: $color-reserve;
+    color: white;
+  }
+}
+#loginModal {
+  .modal-header {
+    background-color: $color-reserve;
+    color: white;
+  }
+}
+
+#bodyHome {
+  min-height: 100vh;
+  background-image: linear-gradient(transparent, white 75%), url("../img/iam_1.jfif");
+  //Center and scale the image nicely
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bodyAbout {
+  min-height: 100vh;
+  background-image: linear-gradient(transparent, white 75%), url("../img/img_3728.jpg");
+  //Center and scale the image nicely
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bodyContact {
+  min-height: 100vh;
+  background-image: linear-gradient(transparent, white 75%),
+    url("../img/ironmortar_november19-19102.jfif");
+  //Center and scale the image nicely
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bodyClasses {
+  min-height: 100vh;
+  background-image: linear-gradient(transparent, white 75%), url("../img/im_0142.jfif");
+  //Center and scale the image nicely
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
